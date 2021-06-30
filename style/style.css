@@ -1,0 +1,65 @@
+
+
+
+.content {
+  max-width: 720px;
+  margin: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+}
+
+/*body {
+width: 720px;
+text-align: center;
+}*/
+
+p {
+  color: black;
+  /*width: 720px;*/
+  text-align: center;
+  border: 1px solid gray;
+  background: gold;
+}
+
+
+ul {
+  color: darkblue;
+}
+
+
+
+img {
+	image-align: center;
+  width: 480px;
+}
+
+
+
+#the_first_parag {
+  color: black;
+}
+
+
+
+h1 {
+  color: darkblue;
+  }
+
+
+  
+  img[src="intake_manifold.jpg"] 
+  {
+  border: 4px solid white;
+}
+
+
+a:hover
+{
+  color: green;
+}
+
