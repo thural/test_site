@@ -1,2 +1,2 @@
 # testsite
-Creating a test site and develop it as I learn frontend
+Create a test site and develop it as I learn frontend further
