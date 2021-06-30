@@ -20,8 +20,8 @@ body {
 
 p {
   color: black;
-  /*width: 720px;*/
-  text-align: center;
+  width: 720px;
+  /*text-align: center;*/
   border: 1px solid gray;
   background: gold;
 }
@@ -33,7 +33,8 @@ ul {
 
 
 #the_first_parag {
-  color: whitesmoke;
+  color: black;
+  text-shadow: white;
 }
 
 
