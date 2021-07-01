@@ -18,7 +18,7 @@
 
       <h1>Internal Combustion Engines</h1>
 
-      <a href="#footer">Want to submit a request?</a>
+      <a href="#footer">Want to submit a request? Click here</a>
 
       <p id="the_first_parag">
         Internal combustin engines converts energy of specific gasses into mechanical energy by burning them 
@@ -58,7 +58,8 @@
         Moving pistons dragging air through an intake manifold into combustion chamber at intake stroke.
       </p>
 		
-      <a href="https://en.wikipedia.org/wiki/Inlet_manifold"><img src="images/intake_manifold.jpg" alt="picture of an intake manifold with long runner tubes" class="center"></a>
+      <a href="https://en.wikipedia.org/wiki/Inlet_manifold"><img src="images/intake_manifold.jpg" 
+        alt="picture of an intake manifold with long runner tubes" class="center"></a>
       
 
       <h2 id="turbo"><a href="https://en.wikipedia.org/wiki/Turbocharged_petrol_engines">Turbocharged</a></h2>
@@ -74,8 +75,19 @@
       <h4 id="footer">Submit a request below</h4>
 
       <form action="#">
-        <input type="text" placeholder="input your message">
+
+        <input type="text" placeholder="input your message" required>
+        
         <button type="submit">Submit</button>
+        
+        <label for="engines"> 
+          <input id="bugs" type="radio" name="engines-other">Engines
+        </label>
+
+        <label for="other"> 
+          <input id="other" type="radio" name="engines-other">Other 
+        </label>
+
       </form>
       
 
