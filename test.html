@@ -5,6 +5,7 @@
   <head>
     <meta charset="utf-8">
     <!link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <link href="style/style.css" rel="stylesheet">
     <title>About Engines</title>
   </head>
@@ -16,9 +17,9 @@
 
 
 
-      <h1>Internal Combustion Engines</h1>
+      <h1 style="font-family: lobster , monospace;">Internal Combustion Engines</h1>
 
-      <a href="#footer">Want to submit a request? Click here</a>
+      <a href="#footer">Want to request an e-book? Click here</a>
 
       <p id="the_first_parag">
         Internal combustin engines converts energy of specific gasses into mechanical energy by burning them 
@@ -55,7 +56,7 @@
       <h3><a href="https://en.wikipedia.org/wiki/Naturally_aspirated_engine">Naturally Aspirated</a></h3>
 
       <p>Natually Aspirated engines apirated using atmospheric pressure of natural environment. 
-        Moving pistons dragging air through an intake manifold into combustion chamber at intake stroke.
+        Moving pistons drag air through an intake manifold into combustion chamber while intake stroke.
       </p>
 		
       <a href="https://en.wikipedia.org/wiki/Inlet_manifold"><img src="images/intake_manifold.jpg" 
@@ -76,17 +77,20 @@
 
       <form action="#">
 
-        <input type="text" placeholder="input your message" required>
+        <input type="text" placeholder="input a title" required>
         
         <button type="submit">Submit</button>
         
         <label for="engines"> 
-          <input id="bugs" type="radio" name="engines-other">Engines
+          <input id="engines" type="radio" name="engines-other" checked>Engines
         </label>
 
         <label for="other"> 
           <input id="other" type="radio" name="engines-other">Other 
         </label>
+
+        <label for="PDF"><input id="PDF" type="checkbox" name="doctype" checked> PDF</label>
+        <label for="EPUB"><input id="EPUB" type="checkbox" name="doctype"> EPUB</label>
 
       </form>
       

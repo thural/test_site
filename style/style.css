@@ -3,8 +3,9 @@ body {
   background-color: whitesmoke;
   max-width: 720px;
   padding: 24px 24px 24px 24px;
-  margin: 0 auto;
+  margin: 24px auto;
   border: 5px solid black;
+  border-radius: 10px;
 }
 
 /*.content {
@@ -42,7 +43,7 @@ h1 {
   padding: 20px 0;
   text-align: center;
   text-shadow: 4px 8px 8px black;
-  color: darkblue;
+  color: rgb(33, 33, 170);
   }
 
   
@@ -53,6 +54,7 @@ img {
   /*max-width: 480px;*/
   margin: 32px auto;
   border: 5px solid black;
+  border-radius: 10px;
   width: 50%;
 }
 
