@@ -1,4 +1,7 @@
 
+
+
+/*
 body {
   background-color: whitesmoke;
   max-width: 720px;
@@ -9,65 +12,95 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
+*/
+
+
+
+:root{
+  --border-Color: rgb(33, 66, 99);
+}
+
+
+.aboutEngines{
+  background-color: whitesmoke;
+  max-width: 720px;
+  padding: 24px 24px 24px 24px;
+  margin: 30px auto;
+  border: 5px solid var(--border-Color);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.forums{
+  background-color: whitesmoke;
+  max-width: 720px;
+  padding: 24px 24px 24px 24px;
+  margin: 30px auto;
+  border: 5px solid var(--border-Color);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+
 
 /*.content {
   max-width: 720px;
   margin: 54px auto;
 }*/
 
-/*.center {
-  display: block;
-  padding: 32px 32px;
-  max-width: 480px;
-  margin: 32px auto;
-  border-width: 4px;
-  border-color: black;
-  width: 50%;
-}*/
 
-  p {
+
+p {
   color: black;
 }
+
+
 
 ul {
-  color: darkblue;
+  color: var(--border-Color);
 }
 
-
-#the_first_parag {
-  color: black;
-  text-shadow: white;
-}
 
 
 h1 {
   margin: 0;
   padding: 20px 0;
   text-align: center;
-  text-shadow: 4px 8px 8px black;
-  color: rgb(33, 33, 170);
+  text-shadow: 4px 8px 16px black;
+  color: var(--border-Color);
   }
 
-h5 {
+
+
+h5 , h3 {
   padding: 0px 0;
+  font-size: 16px;
+  color: var(--border-Color);
 }  
 
   
+
 img {
   display: block;
   padding: 32px 32px;
   background-color: white;
   /*max-width: 480px;*/
-  margin: 32px auto;
-  border: 5px solid black;
-  border-radius: 10px;
-  width: 50%;
+  margin: auto auto;
+  /*border: 5px solid var(--border-Color);*/
+  /*border-radius: 10px;*/
+  width: 46%;
 }
+
+
 
 [type='checkbox'] {
   margin-top: 10px; 
   margin-bottom: 10px;
 }
+
+
 
 a:hover {
   color: green;

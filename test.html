@@ -13,27 +13,27 @@
 
   <body>
 
-    <div class="content">
+    <div class="#">
 
+      <div class="aboutEngines">
 
+        <h1 style="font-family: lobster , monospace;">Internal Combustion Engines</h1>
 
-      <h1 style="font-family: lobster , monospace;">Internal Combustion Engines</h1>
+        <h5><a href="#footer">Want to request an e-book? Click here</a></h5>
 
-      <h5><a href="#footer">Want to request an e-book? Click here</a></h5>
-
-      <p id="the_first_parag">
+        <p id="the_first_parag">
         Internal combustin engines converts energy of specific gasses into mechanical energy by burning them 
         in the process. Below you can see a tuned engine of Opel Vectra B with 1598 cc displacement named 
         <a href="https://en.wikipedia.org/wiki/GM_Family_1_engine#Ecotec">X16XEL</a> (optimized low-end torque)
-      </p>
+        </p>
   
-      <img src="images/x16xel_tuned.png" alt="picture of the engine" class="center">
+        <img src="images/x16xel_tuned.png" alt="picture of the engine" class="center">
     
-      <p>
+        <p>
         There are wide range of IC Engines types. Some of them are listed below:
-      </p>
+        </p>
 
-      <ul>
+        <ul>
 
 	        <strong>
 	
@@ -46,14 +46,15 @@
     
      		  </strong>
     
-    	</ul>
+    	  </ul>
     
-      <p>
+        <p>
         The different engine types listed above are categorized by their induction methodes. 
         Turbocharged and Naturally aspirated engines are the most popular and widely used. Lets expalin both of them;
-      </p>
-      
+        </p>
+      </div>
 
+      <div class="aboutEngines">
       <h3><a href="https://en.wikipedia.org/wiki/Naturally_aspirated_engine">Naturally Aspirated</a></h3>
 
       <p>
@@ -63,40 +64,43 @@
 		
       <a href="https://en.wikipedia.org/wiki/Inlet_manifold"><img src="images/intake_manifold.jpg" 
         alt="picture of an intake manifold with long runner tubes" class="center"></a>
-      
+      </div>
 
-      <h2 id="turbo"><a href="https://en.wikipedia.org/wiki/Turbocharged_petrol_engines">Turbocharged</a></h2>
+      <div class="aboutEngines">
+      <h3><a href="https://en.wikipedia.org/wiki/Turbocharged_petrol_engines">Turbocharged</a></h3>
     
       <p>
-        Turbocharged engines aspirated using specific turbines attached in serial to <bold>intake manifold</bold>. 
+        Turbocharged engines aspirated using turbines attached in serial to <bold>intake manifold</bold>. 
         Turbochargers consists of 2 turbine blades one is the compressor blade the other is the turbine blade 
         which are spining at thousands of RPMs by the force of exhaust gasses flowing through turbine blade.
       </p>
     	
       <img src="images/turbocharger.webp" alt="picture of the Turbocharger" class="center">
+      </div>
 
+      <div class="forums">
+        <h5 id="footer" style="margin: 10px 0;">Submit a request below</h5>
 
-      <h4 id="footer" style="margin: 10px 0;">Submit a request below</h4>
+        <form action="#">
 
-      <form action="#">
-
-        <input type="text" placeholder="input a title" required>
+          <input type="text" placeholder="input a title" required>
         
-        <button type="submit">Submit</button>
+          <button type="submit">Submit</button>
         
-        <label for="engines"> 
+          <label for="engines"> 
           <input id="engines" type="radio" name="engines-other" checked>Engines
-        </label>
+          </label>
 
-        <label for="other"> 
+          <label for="other"> 
           <input id="other" type="radio" name="engines-other">Other 
-        </label>
+          </label>
 
-        <label for="PDF"><input id="PDF" type="checkbox" name="doctype" checked> PDF</label>
+          <label for="PDF"><input id="PDF" type="checkbox" name="doctype" checked> PDF</label>
 
-        <label for="EPUB"><input id="EPUB" type="checkbox" name="doctype"> EPUB</label>
+          <label for="EPUB"><input id="EPUB" type="checkbox" name="doctype"> EPUB</label>
 
-      </form>
+        </form>
+      </div>
       
 
 
