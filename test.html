@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html> 	
       
-  
   <head>
     <meta charset="utf-8">
     <!link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -11,75 +10,76 @@
   </head>
   
 
-  <body>
+    <body>
 
-    <div class="#">
+      <h5><a id="request" href="#footer">Need an e-book?</a></h5>
 
       <div class="aboutEngines">
 
         <h1 style="font-family: lobster , monospace;">Internal Combustion Engines</h1>
 
-        <h5><a href="#footer">Want to request an e-book? Click here</a></h5>
+        <hr>
 
         <p id="the_first_parag">
-        Internal combustin engines converts energy of specific gasses into mechanical energy by burning them 
-        in the process. Below you can see a tuned engine of Opel Vectra B with 1598 cc displacement named 
+        Internal combustin engines convert energy of specific gasses into mechanical energy by burning them 
+        in the process. Below you can see a tuned engine of GM/Opel with 1598 cc displacement named 
         <a href="https://en.wikipedia.org/wiki/GM_Family_1_engine#Ecotec">X16XEL</a> (optimized low-end torque)
         </p>
   
         <img src="images/x16xel_tuned.png" alt="picture of the engine" class="center">
     
         <p>
-        There are wide range of IC Engines types. Some of them are listed below:
+        There are wide range of Internal Combustion Engines:
         </p>
 
         <ul>
-
 	        <strong>
-	
             <li><a href="#turbo">Turbocharged</a></li>
             <li>Naturally Aspirated</li>
             <li>Supercharged</li>
             <li>Procharged</li>
             <li>Electrocharged</li>
             <li>NO2 charged</li>
-    
      		  </strong>
-    
     	  </ul>
     
         <p>
         The different engine types listed above are categorized by their induction methodes. 
-        Turbocharged and Naturally aspirated engines are the most popular and widely used. Lets expalin both of them;
+        Turbocharged and Naturally aspirated engines are the most popular and widely used among the others.
         </p>
       </div>
 
       <div class="aboutEngines">
-      <h3><a href="https://en.wikipedia.org/wiki/Naturally_aspirated_engine">Naturally Aspirated</a></h3>
+        <h3><a href="https://en.wikipedia.org/wiki/Naturally_aspirated_engine">Naturally Aspirated</a></h3>
+        <hr>
 
-      <p>
+        <p>
         Natually Aspirated engines apirated using atmospheric pressure of natural environment. 
         Moving pistons drag air through an intake manifold into combustion chamber while intake stroke.
-      </p>
+        </p>
 		
-      <a href="https://en.wikipedia.org/wiki/Inlet_manifold"><img src="images/intake_manifold.jpg" 
+        <a href="https://en.wikipedia.org/wiki/Inlet_manifold"><img src="images/intake_manifold.jpg" 
         alt="picture of an intake manifold with long runner tubes" class="center"></a>
       </div>
 
       <div class="aboutEngines">
-      <h3><a href="https://en.wikipedia.org/wiki/Turbocharged_petrol_engines">Turbocharged</a></h3>
+        <h3><a href="https://en.wikipedia.org/wiki/Turbocharged_petrol_engines">Turbocharged</a></h3>
+        <hr>
     
-      <p>
+        <p>
         Turbocharged engines aspirated using turbines attached in serial to <bold>intake manifold</bold>. 
         Turbochargers consists of 2 turbine blades one is the compressor blade the other is the turbine blade 
         which are spining at thousands of RPMs by the force of exhaust gasses flowing through turbine blade.
-      </p>
+        </p>
     	
-      <img src="images/turbocharger.webp" alt="picture of the Turbocharger" class="center">
+        <img src="images/turbocharger.webp" alt="picture of the Turbocharger" class="center">
+
       </div>
 
-      <div class="forums">
-        <h5 id="footer" style="margin: 10px 0;">Submit a request below</h5>
+
+      <div class="form">
+        
+        <h5 id="footer" style="padding: 15px 15px 0px 15px;">Submit a request below</h5>
 
         <form action="#">
 
@@ -88,11 +88,11 @@
           <button type="submit">Submit</button>
         
           <label for="engines"> 
-          <input id="engines" type="radio" name="engines-other" checked>Engines
+            <input id="engines" type="radio" name="engines-other" checked>Engines
           </label>
 
           <label for="other"> 
-          <input id="other" type="radio" name="engines-other">Other 
+            <input id="other" type="radio" name="engines-other">Other 
           </label>
 
           <label for="PDF"><input id="PDF" type="checkbox" name="doctype" checked> PDF</label>
@@ -100,14 +100,20 @@
           <label for="EPUB"><input id="EPUB" type="checkbox" name="doctype"> EPUB</label>
 
         </form>
+
       </div>
-      
 
+      <div class="underConstruction">
 
-    </div>
+        <div class="notice">
+          <p id="notice">
+            SITE UNDER CONSTRUCTION
+          </p>
+        </div>
+      </div>
 
-    <script src="scripts/main.js"></script>
+      <script src="scripts/main.js"></script>
 
-  </body>
+    </body>
 
 </html>
