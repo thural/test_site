@@ -10,15 +10,15 @@
   </head>
   
 
-    <body>
+  <body>
       
-      <h5><a id="request" href="#footer">Need an e-book?</a></h5>
-
+      <h3><a id="request" href="#footer">Need an e-book?</a></h3>
+    <div class="cards">  
       <div class="aboutEngines">
         <h1 style="font-family: lobster , monospace;">Internal Combustion Engines</h1>
         <hr>
 
-        <p id="the_first_parag">
+        <p>
         Internal combustin engines convert energy of specific gasses into mechanical energy by burning them 
         in the process. Below you can see a tuned engine of GM/Opel with 1598 cc displacement named 
         <a href="https://en.wikipedia.org/wiki/GM_Family_1_engine#Ecotec">X16XEL</a> (optimized low-end torque)
@@ -73,14 +73,13 @@
         <img src="images/turbocharger.webp" alt="picture of the Turbocharger" class="center">
 
       </div>
+    </div>  
 
-
-      <div class="form"> 
-        <h5 id="footer" style="padding: 15px 15px 0px 15px;">Submit a request below</h5>
+      <div id="form" class="form"> 
+        <h3 id="footer">Submit a request below</h3>
         <form action="#">
-
+          
           <input type="text" placeholder="input a title" required>
-        
           <button type="submit">Submit</button>
         
           <label for="engines"> 
@@ -91,9 +90,13 @@
             <input id="other" type="radio" name="engines-other">Other 
           </label>
 
-          <label for="PDF"><input id="PDF" type="checkbox" name="doctype" checked> PDF</label>
+          <label for="PDF">
+            <input id="PDF" type="checkbox" name="doctype" checked> PDF
+          </label>
 
-          <label for="EPUB"><input id="EPUB" type="checkbox" name="doctype"> EPUB</label>
+          <label for="EPUB">
+            <input id="EPUB" type="checkbox" name="doctype"> EPUB
+          </label>
 
         </form>
       </div>
@@ -107,5 +110,5 @@
       </div>
 
       <script src="scripts/main.js"></script>
-    </body>
+  </body>
 </html>

@@ -1,6 +1,5 @@
 body {
   background-color: whitesmoke;
-  /*max-width: 720px;*/
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
@@ -32,9 +31,10 @@ h3 {
   
 }
 
-h5 {
-  padding: auto;
-  margin: auto;
+#footer {
+  text-decoration: none;
+  text-align: left;
+  padding: 15px 15px 0px 15px;
   font-size: 16px;
   color: var(--border-Color);
   opacity: 1;
@@ -54,7 +54,6 @@ ul {
   margin: auto;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 16px;
   color: var(--border-Color);
 }
 
@@ -70,6 +69,7 @@ img {
   border-radius: 10px;
   width: 46%;
 }
+
 img:hover{
 position: relative;
 top:auto;
@@ -79,12 +79,11 @@ animation-duration: 300ms;
 animation-fill-mode: forwards;
 z-index: 6;
 }
+
 @keyframes zoom{
 0%{transform:scale(1)}
 100%{transform:scale(1.1)}
 }
-
-
 
 [type='checkbox'] {
   margin-top: 10px; 
@@ -97,7 +96,7 @@ a {
 }
 
 a:hover {
-  color: green;
+  color: orange;
   text-decoration: none;
   
 }
@@ -110,8 +109,8 @@ a:hover {
   border-radius: 15px;
   box-shadow: 0 10px 18px rgba(0,0,0,0.6), 0 6px 6px rgba(0,0,0,0.23);
   background: linear-gradient(180deg, white, rgba(33, 66, 99, 0.18) );
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
 }
 
 .form{
@@ -122,6 +121,12 @@ a:hover {
   border-radius: 15px;
   box-shadow: 0 10px 18px rgba(0,0,0,0.6), 0 6px 6px rgba(0,0,0,0.23);
   background: linear-gradient(180deg, white, rgba(33, 66, 99, 0.18) );
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+}
+
+
+#form{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
@@ -134,6 +139,10 @@ form{
 .underConstruction{
   display:block;
   max-width: 730px;
+  
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.6), 0 6px 6px rgba(0,0,0,0.23);
   background: repeating-linear-gradient(
     45deg,
     yellow 0px,
@@ -141,9 +150,6 @@ form{
     black 40px,
     black 80px
   );
-  margin: 30px auto;
-  border-radius: 15px;
-  box-shadow: 0 10px 18px rgba(0,0,0,0.6), 0 6px 6px rgba(0,0,0,0.23);  
 }
 
 .notice{
@@ -154,7 +160,8 @@ form{
   display:block;
   animation-name:siren;
   animation-duration: 6s;
-  animation-fill-mode: backwards;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
   animation-iteration-count: infinite;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
@@ -165,15 +172,29 @@ form{
   border-radius: 15px;
 }
 @keyframes siren{
-  0%{background-color: red;}
+  0%{background-color:orangered;}
   25%{background-color: orange;}
   50%{background-color: yellow;}
   75%{background-color:orange;}
-  100%{background-color: red;}
+  100%{background-color:orangered;}
 }
 
 #request{
+  max-width: 15%;
   position: fixed;
-  top: 15px;
-  right: 15px;
+  top: 3%;
+  right: 3%;
 }
+
+/*
+@media (max-width:1400px){
+  #request{font-size: 12px !important}
+}
+*/
+
+/*.cards{
+  display: flexbox;
+  height: 1000px;
+  flex-direction: row;
+}
+*/
