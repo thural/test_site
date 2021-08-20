@@ -1,89 +1,89 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <!link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <link href="style/reset.css" rel="stylesheet">
-    <link href="style/style.css" rel="stylesheet">
-    <title>About Engines</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <!--link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"-->
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link href="style/reset.css" rel="stylesheet">
+  <link href="style/style.css" rel="stylesheet">
+  <title>About Engines</title>
+</head>
 
-  <body>
+<body>
 
-    <h3><a id="request" href="#footer">Need an e-book?</a></h3>
+  <h3><a id="request" href="#footer">Need an e-book?</a></h3>
 
-    <div class="container">
+  <div class="container">
 
-      <div class="about">
-        <h1 style="font-family: lobster , monospace;">Internal Combustion Engines</h1>
-        <hr>
-        <p>
-          Internal combustin engines convert energy of specific gasses into mechanical energy by burning them
-          in the process. Below is a tuned engine of GM/Opel with 1598 cc displacement named
-          <a href="https://en.wikipedia.org/wiki/GM_Family_1_engine#Ecotec">X16XEL</a> (optimized low-end torque)
-        </p>
-        <img src="images/x16xel_tuned.png" alt="picture of the engine" class="center">
-        <p>There are wide range of Internal Combustion Engines:</p>
-        <ul>
-          <strong>
-            <li><a href="#natural">Naturally Aspirated</a></li>
-            <li><a href="#turbo">Turbocharged</a></li>
-            <li>Supercharged</li>
-            <li>Procharged</li>
-            <li>Electrocharged</li>
-          </strong>
-        </ul>
-        <p>
-          The different engine types listed above are categorized by their induction methodes.
-          Turbocharged and Naturally aspirated engines are the most popular and widely used among others.
-        </p>
-      </div>
-
-      <div class="natural">
-        <h3><a href="https://en.wikipedia.org/wiki/Naturally_aspirated_engine">Naturally Aspirated</a></h3>
-          <hr>
-        <p>
-          Natually Aspirated engines use atmospheric pressure of natural environment.
-          Moving pistons drag air through an intake manifold into combustion chamber while intake stroke.
-        </p>
-        <a href="https://en.wikipedia.org/wiki/Inlet_manifold"><img src="images/intake_manifold.jpg"
-          alt="picture of an intake manifold with long runner tubes" class="center">
-        </a>
-      </div>
-
-      <div class="turbo">
-        <h3><a href="https://en.wikipedia.org/wiki/Turbocharged_petrol_engines">Turbocharged</a></h3>
-          <hr>
-        <p>
-          Turbocharged engines aspirated using a compressor turbine attached in serial to <bold>intake manifold</bold>.
-          Turbochargers consists of a compressor blade and a turbine blade
-          which spin at thousands of RPMs by the force of exhaust gasses flowing through turbine blade.
-        </p>
-        <img src="images/turbocharger.webp" alt="picture of the Turbocharger" class="center">
-      </div>
-
-      <div id="form" class="form">
-          <h3 id="footer">Submit a request below</h3>
-        <form action="#">
-          <input type="text" placeholder="input a title" required>
-          <button type="submit">Submit</button>
-          <label for="engines"><input id="engines" type="radio" name="engines-other" checked>Engines</label>
-          <label for="other"><input id="other" type="radio" name="engines-other">Other</label>
-          <label for="PDF"><input id="PDF" type="checkbox" name="doctype" checked> PDF</label>
-          <label for="EPUB"><input id="EPUB" type="checkbox" name="doctype"> EPUB</label>
-        </form>
-      </div>
-
-      <div class="underConstruction">
-        <div class="notice">
-          <p id="notice">SITE UNDER CONSTRUCTION</p>
-        </div>
-      </div>
-
+    <div class="cards" id="about">
+      <h1 style="font-family: lobster , monospace;">Internal Combustion Engines</h1>
+      <hr>
+      <p>
+        Internal combustin engines convert energy of specific gasses into mechanical energy by burning them
+        in the process. Below is a tuned engine of GM/Opel with 1598 cc displacement named
+        <a href="https://en.wikipedia.org/wiki/GM_Family_1_engine#Ecotec">X16XEL</a> (optimized low-end torque)
+      </p>
+      <img src="images/x16xel_tuned.png" alt="picture of the engine" class="center">
+      <p>There are wide range of Internal Combustion Engines:</p>
+      <ul>
+        <strong>
+          <li><a href="#natural">Naturally Aspirated</a></li>
+          <li><a href="#turbo">Turbocharged</a></li>
+          <li>Supercharged</li>
+          <li>Procharged</li>
+          <li>Electrocharged</li>
+        </strong>
+      </ul>
+      <p>
+        The different engine types listed above are categorized by their induction methodes.
+        Turbocharged and Naturally aspirated engines are the most popular and widely used among others.
+      </p>
     </div>
 
-    <script src="scripts/main.js"></script>
-  </body>
+    <div class="cards" id="natural">
+      <h3><a href="https://en.wikipedia.org/wiki/Naturally_aspirated_engine">Naturally Aspirated</a></h3>
+      <hr>
+      <p>
+        Natually Aspirated engines use atmospheric pressure of natural environment.
+        Moving pistons drag air through an intake manifold into combustion chamber while intake stroke.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Inlet_manifold"><img src="images/intake_manifold.jpg" alt="picture of an intake manifold">
+      </a>
+    </div>
+
+    <div class="cards" id="turbo">
+      <h3><a href="https://en.wikipedia.org/wiki/Turbocharged_petrol_engines">Turbocharged</a></h3>
+      <hr>
+      <p>
+        Turbocharged engines aspirated using a compressor turbine attached in serial to <bold>intake manifold</bold>.
+        Turbochargers consists of a compressor blade and a turbine blade
+        which spin at thousands of RPMs by the force of exhaust gasses flowing through turbine blade.
+      </p>
+      <img src="images/turbocharger.webp" alt="picture of the Turbocharger" class="center">
+    </div>
+
+    <div id="form" class="form">
+      <h3 id="footer">Submit a request below</h3>
+      <form action="#">
+        <input type="text" placeholder="input a title" required>
+        <button type="submit">Submit</button>
+        <label for="engines"><input id="engines" type="radio" name="engines-other" checked>Engines</label>
+        <label for="other"><input id="other" type="radio" name="engines-other">Other</label>
+        <label for="PDF"><input id="PDF" type="checkbox" name="doctype" checked> PDF</label>
+        <label for="EPUB"><input id="EPUB" type="checkbox" name="doctype"> EPUB</label>
+      </form>
+    </div>
+
+    <div class="underConstruction">
+      <div class="notice">
+        <p id="notice">SITE UNDER CONSTRUCTION</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+
 </html>
